@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer - Profile</title>
+    <link rel="stylesheet" href="styles.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<style>
+    #about2{
+       font-size: 35px;
+    }
+    #italic{
+        font-size: 25px;
+    }
+    #skill{
+
+        font-size: 35px;
+    }
+    #what{
+        font-size: 35px;
+    }
+    #des{
+        
+        font-size: 25px;
+    }
+    #connect{
+        font-size: 35px;
+    }
+    .img{
+
+        width: 150px;
+        height: 150px;
+    }
+    .pro{
+        height: 300px;
+        width: 150px;
+        border: 2px solid;
+        border-radius: 10px;
+        
+    }
+    .project{
+        display: flex;
+        justify-content: space-around;
+    }
+    #por1{
+        font-size: 35px;
+    }
+    .img1{
+        height: 100px;
+        padding: 2px;
+    }
+    .img2{
+        height: 100px;
+        padding: 2px;
+    }
+    .img3{
+        height: 105px;
+    }
+
+
+    form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+   
+</style>
+<body>
+    <header>
+        <h1>WELCOME TO MY PROFILE </h1>
+        <h2 class="fade-in">AMAN KUMAR CHAURASIA </h2>
+        <p class="fade-in">(Aspiring DevOps Engineer)</p>
+    </header>
+    
+    <section id="about" class="slide-in">
+
+        <ul><h2 id="about2">About Me</h2></ul>
+        <i id="italic">"I am a passionate and results-driven aspiring DevOps Engineer with a strong foundation in cloud infrastructure, automation, and CI/CD pipelines. I thrive on building efficient, scalable, and secure deployment solutions, leveraging technologies such as Docker, Kubernetes, Terraform, AWS, and Linux. My goal is to bridge the gap between development and operations by optimizing workflows, enhancing system reliability, and implementing best DevOps practices. Currently, I am expanding my expertise in cloud-native technologies, monitoring solutions, and infrastructure as code (IaC) to drive seamless software delivery. Always eager to collaborate, learn, and adapt to new challenges, I am committed to fostering innovation in the DevOps ecosystem."
+
+        </i>
+    </section>
+    
+    <section id="skills" class="slide-in">
+
+         <h1 id="skill"><ul>Skills</ul></h1> 
+
+        <div class="skills-container">
+            <img class="img" src="docker.jpg" alt="Docker" class="skill-icon">
+            <img  class="img" src="kubernite.jpg" alt="Kubernetes" class="skill-icon">
+            <img  class="img" src="aws2.jpg" alt="AWS" class="skill-icon">
+            <img   class="img"src="terraform.jpg" alt="Terraform" class="skill-icon">
+            <img  class="img" src="jenkin.jpeg" alt="Jenkins" class="skill-icon">
+            <img   class="img"src="linux.jpg" alt="Linux" class="skill-icon">
+        </div>
+    </section>
+    
+    <section id="projects" class="fade-in">
+        <h2 id="por1">Projects</h2>
+
+        <div class="project">
+
+            <div class="pro">
+                <h3>DOCKER PROJECT </h3>
+                <div>
+                    <img class="img1" src="docker.jpg" alt="">
+                </div>
+
+                <p>Description of the project...</p>
+                <a href="#">View Project</a>
+            </div>
+            
+
+            <div class="pro">
+                <h3>AWS PROJECT</h3>
+                <div>
+                    <img class="img2" src="aws2.jpg" alt="">
+                </div>
+
+                <p>Description of the project...</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="pro">
+                <h3>LINUX PROJECT</h3>
+                <div>
+                    <img class="img2" src="linux.jpg" alt="">
+                </div>
+
+                <p>Description of the project...</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="pro">
+                <h3>TERRAFORM PROJECT</h3>
+
+                <div>
+                    <img class="img3" src="terraform.jpg" alt="">
+                </div>
+                <p>Description of the project...</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="pro">
+                <h3>KUBERNETTE PROJECT</h3>
+                <div>
+                    <img class="img2" src="kubernite.jpg" alt="">
+                </div>
+
+
+                <p>Description of the project...</p>
+                <a href="#">View Project</a>
+            </div>
+
+           
+
+
+            
+        </div>
+        
+    </section>
+    
+    <section id="current-work" class="slide-in">
+        <h2 id="what">What I'm Working On</h2>
+        <i id="des">I am currently deepening my expertise in Kubernetes and CI/CD automation, focusing on deploying scalable applications efficiently. I am also exploring Infrastructure as Code (IaC) using Terraform to automate cloud resource provisioning. Additionally, I am improving my monitoring and logging skills with tools like Prometheus and Grafana to enhance system observability. My current goal is to master AWS DevOps services, including EC2, S3, Lambda, and IAM, while implementing security best practices in cloud environments. Always eager to learn, I am actively working on hands-on projects to strengthen my DevOps skill set." </i>
+    </section>
+    
+    <section id="contact" class="fade-in">
+
+        <h2>Contact Me</h2>
+        <form
+        action="https://formspree.io/f/xeoazabn"
+        method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+        
+
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+        <br>
+        <button class="resume-button">Download My Resume</button>
+    </section>
+</body>
+</html>
